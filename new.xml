@@ -1,6 +1,7 @@
-<person>
- <name>Sergey<\name>
- <age>37<\age>
- <pets>0<\pets>
- <sallary>4500<\sallary>
-<\person> 
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <Name>Sergey</Name>
+    <Age>37</Age>
+    <Pets>0</Pets>
+    <Sallary>4500</Sallary>
+</root>
