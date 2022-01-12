@@ -1,1 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <Scope:>Windows 10 Home</Scope:>
+    <Steps:>1. Press key combination win + R</Steps:>
+    <Steps:>2. Opened a window cmd</Steps:>
+    <Expected behavion:> opened a window to Paris</Expected behavion:>
+</root>
 
