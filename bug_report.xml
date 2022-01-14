@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
-    <Summary>Login: Error messages in the login form are displayed in English</Summary>
-    <Environment>All browseres / devices</Environment>
-    <Severity>Major</Severity>
-    <Step to reproduce>1. Open front end https://www.test-obelink.be:8443/</Step to reproduce>
-    <Step to reproduce>2. Follow inloggen link</Step to reproduce>
-    <Step to reproduce>3. Fill required fields with invalid data</Step to reproduce>
-    <Step to reproduce>4. Click inloggen button</Step to reproduce>
-    <Step to reproduce>5. Pay attention to error messages</Step to reproduce>
-    <Actual results>Error messages in the login form are displayed in English</Actual results>
-    <Expected result>Error messages in the login form are displayed in the chosen language</Expected result>
-    <Attachment>http://prntser.com/k905cq</Attachment>
+    <Bug_id>1</Bug_id>
+    <Project>online store</Project>
+    <Build>v 1.0</Build>
+    <Environment>browser Opera 82.0.42</Environment>
+    <Environment>OS Windows 10 Pro</Environment>
+    <Summary>when you click on the button BUY NOW, nothing happens.</Summary>
+    <Steps_to_reproduce>1. Open the link http:/www.onlinestore.club</Steps_to_reproduce>
+    <Steps_to_reproduce>2. Push the button BUY NOW</Steps_to_reproduce>
+    <Actual_results>nothing is happening</Actual_results>
+    <Expected_result>the application form opens</Expected_result>
+    <Attachment>video</Attachment>
+    <Severity>Blocker</Severity>
+    <Priority>Hight (appointed by the responsible person)</Priority>
+    <Author>Serge Montana</Author>
+    <Assignee>responsible developer</Assignee>
 </root>
