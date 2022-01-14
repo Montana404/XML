@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
-    <Scope:>Windows 10 Home</Scope:>
-    <Steps:>1. Press key combination win + R</Steps:>
-    <Steps:>2. Opened a window cmd</Steps:>
-    <Expected behavion:> opened a window to Paris</Expected behavion:>
+    <Summary>Login: Error messages in the login form are displayed in English</Summary>
+    <Environment>All browseres / devices</Environment>
+    <Severity>Major</Severity>
+    <Step to reproduce>1. Open front end https://www.test-obelink.be:8443/</Step to reproduce>
+    <Step to reproduce>2. Follow inloggen link</Step to reproduce>
+    <Step to reproduce>3. Fill required fields with invalid data</Step to reproduce>
+    <Step to reproduce>4. Click inloggen button</Step to reproduce>
+    <Step to reproduce>5. Pay attention to error messages</Step to reproduce>
+    <Actual results>Error messages in the login form are displayed in English</Actual results>
+    <Expected result>Error messages in the login form are displayed in the chosen language</Expected result>
+    <Attachment>http://prntser.com/k905cq</Attachment>
 </root>
-
